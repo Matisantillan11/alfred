@@ -1,1 +1,1 @@
-export * from "./tailwind-styles-merge";
+export { cn } from "./tailwind-styles-merge";
