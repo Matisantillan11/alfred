@@ -1,3 +1,4 @@
+"use client";
 import { motion, MotionProps } from "motion/react";
 
 export default function AnimatedStick(props: MotionProps) {

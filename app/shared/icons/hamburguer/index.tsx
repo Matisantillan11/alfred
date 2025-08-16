@@ -1,4 +1,3 @@
-import { motion } from "motion/react";
 import { cn } from "@alfred/app/shared";
 import { HamburgerProps } from "./types";
 import AnimatedStick from "./animated-stick";
