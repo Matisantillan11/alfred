@@ -12,7 +12,7 @@ export default function Sidebar() {
 
   return (
     <motion.div
-      className="w-64 shadow-2xl shadow-gray-400 rounded-2xl mt-4 mb-4 ml-4 overflow-hidden"
+      className="shadow-2xl shadow-gray-400 rounded-2xl mt-4 mb-4 ml-4 overflow-hidden"
       animate={{ width: isSidebarOpen ? "256px" : "40px" }}
       transition={{ duration: 0.3 }}
     >
