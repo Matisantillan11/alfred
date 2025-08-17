@@ -4,3 +4,5 @@ export { Ambulance } from "./ambulance";
 export { Settings } from "./settings";
 export { CircleDollarSign as Dollar } from "./dollar";
 export { TriangleAlert as Alert } from "./alert";
+export { TrendingUp } from "./trending-up";
+export { TrendingDown } from "./trending-down";
