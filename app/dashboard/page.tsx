@@ -114,7 +114,7 @@ const columns: ColumnDef<EarningData>[] = [
 export default function Dashboard() {
   return (
     <div className="flex flex-col gap-4 justify-center">
-      <div className="flex items-center justify-center flex-wrap gap-4">
+      <div className="flex items-center justify-center flex-wrap gap-4 -mb-20">
         <Card title="Earnings" value="$12.550">
           <div className="flex items-center gap-1">
             <TrendingUp size={14} className="text-green-500" />
@@ -146,10 +146,10 @@ export default function Dashboard() {
           </div>
         </Card>
       </div>
-      <div className="flex items-center justify-center my-10">
-        <ChartArea />
-      </div>
-      <div className="flex items-center justify-center px-20">
+
+      <ChartArea />
+
+      <div className="flex items-center justify-center mt-4">
         <Table data={defaultEarningData} columns={columns} />
       </div>
     </div>
